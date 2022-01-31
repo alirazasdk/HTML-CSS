@@ -7,12 +7,10 @@ margin:0;
 width:100%;
 }
 .main-header{
-	/*position:fixed;
-	top:0;
-	left:0;*/
+
 	display:block;
 	border-bottom:3px dotted #e1d6d6;
-	/*width:100%;*/
+	
 	padding:2rem 0rem  1.8rem 7rem;
 	z-index:-1;
 	background-color:white;
@@ -20,10 +18,7 @@ width:100%;
 .logo{
 	vertical-align:top;
 }
-/*.main-header-list{
-	
-	/*margin-right:10rem;
-}*/
+
 .main-header-list{
 	vertical-align:top;
 	display:inline-block;
@@ -71,14 +66,12 @@ width:100%;
 	border-bottom: 3px dotted #e1d6d6;
 }
 .image-first{
-	/*border:1px solid black;*/
 	display:inline-block;
 	position:relative;
 	vertical-align:top;
 	color:white;
 }
 .image-first img{
-	/*background:url("images/left-banner-image.jpg") center/cover;*/
 	display:inline-block;
 	width:48vw;
 	height:90vh;
@@ -88,10 +81,6 @@ width:100%;
 	position:absolute;
 	top:13rem;
 	left:5rem;
-	/*display:block;
-	width:40%;
-	margin:auto;
-	vertical-align:middle;*/
 }
 .image-first-info h1{
 	text-align:center;
@@ -105,8 +94,6 @@ width:100%;
 	font-size:1rem;
 	margin:0;
 	margin:2rem 0;
-	/*font-family:'Be Vietnam Pro',Anton;*/
-	
 	font-family:'Montserrat',sans-serif;
 	font-weight:600;
 	font-style:italic;
@@ -135,7 +122,6 @@ width:100%;
 	vertical-align:top;
 }
 .image-second img{
-	/*background:url("images/baner-right-image-01.jpg") center/cover;*/
 	display:inline-block;
 	width:21vw;
 	height:44vh;
@@ -147,11 +133,6 @@ width:100%;
 	color:white;
 	top:6rem;
 	left:5rem;
-	/*margin-top:40%;*/
-	/*display:block;
-	width:90%;
-	margin:auto;*/
-	/*vertical-align:middle;*/
 }
 .image-second-info h1{
 	text-align:center;
@@ -176,7 +157,6 @@ width:100%;
 	vertical-align:top;
 }
 .image-third img{
-	/*background:url("images/baner-right-image-02.jpg") center/cover;*/
 	display:inline-block;
 	width:21vw;
 	height:44vh;
@@ -188,12 +168,6 @@ width:100%;
 	color:white;
 	top:6rem;
 	left:5rem;
-	/*
-	margin-top:40%;
-	display:block;
-	width:30%;
-	margin:auto;
-	vertical-align:middle;*/
 }
 .image-third-info h1{
 	text-align:center;
@@ -218,7 +192,6 @@ width:100%;
 	vertical-align:top;
 }
 .image-fourth img{
-	/*background:url("images/baner-right-image-03.jpg") center/cover;*/
 	display:inline-block;
 	width:21vw;
 	height:44vh;
@@ -231,11 +204,6 @@ width:100%;
 	color:white;
 	top:6rem;
 	left:5rem;
-	/*margin-top:40%;
-	display:block;
-	width:30%;
-	margin:auto;
-	vertical-align:middle;*/
 }
 .image-fourth-info h1{
 	text-align:center;
@@ -249,7 +217,6 @@ width:100%;
 	margin:0;
 	margin:1rem;
 	font-size:1rem;
-	
 	font-family:'Montserrat',sans-serif;
 	font-weight:500;
 	font-style:italic;
@@ -260,7 +227,6 @@ width:100%;
 	vertical-align:top;
 }
 .image-fifth img{
-	/*background:url("images/baner-right-image-04.jpg") center/cover;*/
 	display:inline-block;
 	width:21vw;
 	height:44vh;
@@ -273,11 +239,6 @@ width:100%;
 	color:white;
 	top:6rem;
 	left:5rem;
-	/*margin-top:40%;
-	display:block;
-	width:30%;
-	margin:auto;
-	vertical-align:middle;*/
 }
 .image-fifth-info h1{
 	text-align:center;
@@ -297,17 +258,6 @@ width:100%;
 	font-weight:500;
 	font-style:italic;
 }
-
-/*.image-first-info h1{
-	display:inline-block;
-}
-.image-first-info h6{
-	display:inline-block;
-}
-.image-first-info button{
-	display:inline-block;
-}
-*/
 .second-div{
 	display:inline-block;
 	width:50%;
@@ -317,32 +267,6 @@ width:100%;
 	vertical-align:top;
 }
 
-/*.dropdown{
-	position:relative;
-	display:inline-block;
-}
-.dropdown-content{
-	display:none;
-	position:absolute;
-	background-color:#f9f9f9;
-	min-width:160px;
-	box-shadow:0px 8px 16px 0px;
-	padding:12px 16px;
-	z-index;
-}
-.dropdown:hover .dropdown-content{
-	display:block;
-}
-.dropdownlist{
-	display:none;
-}
-.dropdownlist:hover{
-	display:inline-block;
-}
-.dropdownlist{
-	list-style:none;
-}
-
 /*     Men-section     */
 .men-section{
 	margin-top:7rem;
@@ -350,7 +274,6 @@ width:100%;
 	margin-right:0rem;
 	padding-bottom:5rem;
 	font-family:'Montserrat',sans-serif;
-	/*position:relative;*/
 }
 .prev-arrow{
 	display:inline-block;
@@ -363,19 +286,11 @@ width:100%;
 	border:1px solid black;
 	padding:10px 16px;
 }
-.prev-arrow-container i{
-	/*width:5vw;
-	margin:auto;*/
-	
-}
 .men-section-main{
 	border-bottom:3px dotted #e1d6d6;
 	padding-left:2rem;
 	padding-right:2rem;
 	padding-bottom:6rem;
-}
-.men-section-info{
-	/*position:absolute;*/
 }
 .men-section-info h1{
 	margin:0;
@@ -389,16 +304,11 @@ width:100%;
 	font-style:italic;
 	color:#a5a7a8;
 }
-.men-section-images{
-	
-}
 .men-image-01{
-	
 	display:inline-block;
 	margin-right:2rem;
 }
 .image-01{
-
 	display:inline-block;
 	vertical-align:top;
 }
@@ -407,9 +317,6 @@ width:100%;
 	width:24vw;
 	height:50vh;
 	vertical-align:top;
-}
-.image-01-info{
-	
 }
 .info-div{ 
 	display:inline-block;
@@ -475,8 +382,6 @@ width:100%;
 	height:50vh;
 	vertical-align:top;
 }
-.image-03-info{
-}
 .image-03-info h1{
 	margin-bottom:0;
 	font-weight:700;
@@ -488,12 +393,6 @@ width:100%;
 }
 
 
-
-
-
-
-
-
 /*     Women-section     */
 .women-section{
 	margin-top:1rem;
@@ -501,16 +400,12 @@ width:100%;
 	margin-right:0rem;
 	padding-bottom:5rem;
 	font-family:'Montserrat',sans-serif;
-	/*position:relative;*/
 }
 .women-section-main{
 	border-bottom:3px dotted #e1d6d6;
 	padding-left:2rem;
 	padding-right:2rem;
 	padding-bottom:6rem;
-}
-.women-section-info{
-	/*position:absolute;*/
 }
 .women-section-info h1{
 	margin:0;
@@ -524,15 +419,12 @@ width:100%;
 	font-style:italic;
 	color:#a5a7a8;
 }
-.women-section-images{
-}
 .women-image-01{
 	
 	display:inline-block;
 	margin-right:2rem;
 }
 .wo-image-01{
-
 	display:inline-block;
 	vertical-align:top;
 }
@@ -541,9 +433,6 @@ width:100%;
 	width:24vw;
 	height:50vh;
 	vertical-align:top;
-}
-.women-image-01-info{
-	
 }
 .women-image-01-info h1{
 	margin-bottom:0;
@@ -559,7 +448,6 @@ width:100%;
 	margin-right:2rem;
 }
 .wo-image-02{
-
 	display:inline-block;
 	vertical-align:top;
 }
@@ -568,8 +456,6 @@ width:100%;
 	width:24vw;
 	height:50vh;
 	vertical-align:top;
-}
-.women-image-02-info{
 }
 .women-image-02-info h1{
 	margin-bottom:0;
@@ -581,8 +467,7 @@ width:100%;
 	color:#a5a7a8;
 }
 .women-image-03{
-	display:inline-block;
-	
+	display:inline-block;	
 }
 .wo-image-03{
 	display:inline-block;
@@ -594,8 +479,6 @@ width:100%;
 	height:50vh;
 	vertical-align:top;
 }
-.women-image-03-info{
-}
 .women-image-03-info h1{
 	margin-bottom:0;
 	font-weight:700;
@@ -605,10 +488,6 @@ width:100%;
 	font-weight:600;
 	color:#a5a7a8;
 }
-
-
-
-
 .women-section-main{
 	border-bottom:3px dotted #e1d6d6;
 	
@@ -621,7 +500,6 @@ width:100%;
 	margin-right:0rem;
 	padding-bottom:5rem;
 	font-family:'Montserrat',sans-serif;
-	/*position:relative;*/
 }
 .child-section-main{
 	border-bottom:3px dotted #e1d6d6;
@@ -629,13 +507,9 @@ width:100%;
 	padding-right:2rem;
 	padding-bottom:6rem;
 }
-.child-section-info{
-	/*position:absolute;*/
-}
 .child-section-info h1{
 	margin:0;
 	font-weight:800;
-	
 }
 .child-section-info h6{
 	margin:0;
@@ -645,15 +519,11 @@ width:100%;
 	font-style:italic;
 	color:#a5a7a8;
 }
-.child-section-images{
-}
-.child-image-01{
-	
+.child-image-01{	
 	display:inline-block;
 	margin-right:2rem;
 }
 .ch-image-01{
-
 	display:inline-block;
 	vertical-align:top;
 }
@@ -662,9 +532,6 @@ width:100%;
 	width:24vw;
 	height:50vh;
 	vertical-align:top;
-}
-.child-image-01-info{
-	
 }
 .child-image-01-info h1{
 	margin-bottom:0;
@@ -690,8 +557,6 @@ width:100%;
 	height:50vh;
 	vertical-align:top;
 }
-.child-image-02-info{
-}
 .child-image-02-info h1{
 	margin-bottom:0;
 	font-weight:700;
@@ -703,7 +568,6 @@ width:100%;
 }
 .child-image-03{
 	display:inline-block;
-	
 }
 .ch-image-03{
 	display:inline-block;
@@ -715,8 +579,6 @@ width:100%;
 	height:50vh;
 	vertical-align:top;
 }
-.child-image-03-info{
-}
 .child-image-03-info h1{
 	margin-bottom:0;
 	font-weight:700;
@@ -726,10 +588,6 @@ width:100%;
 	font-weight:600;
 	color:#a5a7a8;
 }
-
-
-
-
 
 /*     Explore Section    */
 
@@ -772,13 +630,6 @@ width:100%;
 .explore-images{
 	display:inline-block;
 }
-
-
-.explore-image-card-1{
-}
-
-
-
 .explore-image-info-1{
 	display:inline-block;
 	width:16vw;
@@ -811,9 +662,6 @@ width:100%;
 
 .explore-image-1{
 	display:inline-block;
-	/*border:1px solid black;
-	display:inline-block;
-	width:15vw;*/
 	margin-bottom:2rem;
 }
 .explore-image-1 img{
@@ -821,9 +669,6 @@ width:100%;
 	width:16vw;
 	height:34vh;
 }
-
-
-
 .explore-image-info-2{
 	display:inline-block;
 	vertical-align:top;
@@ -839,7 +684,6 @@ width:100%;
 	left:20%;
 }
 .explore-image-info-2 h1{
-	
 	margin:0;
 	font-weight:900;
 	font-size:1.1rem;
@@ -854,21 +698,13 @@ width:100%;
 
 .explore-image-2{
 	display:inline-block;
-	/*border:1px solid black;
-	display:inline-block;
-	width:15vw;*/
 	margin-right:2rem;
-	
 }
 .explore-image-2 img{
 	display:inline-block;
 	width:16vw;
 	height:34vh;
 }
-
-
-
-
 
 /*    Social Media Section     */
 
@@ -880,18 +716,11 @@ width:100%;
 	margin-right:5rem;
 	padding-bottom:5rem;
 	border-bottom:3px dotted #e1d6d6;
-	/*position:relative;*/
 }
-.sm-section-info{
-	
-	/*position:absolute;*/
-}
-.sm-section-info h1{
-	
+.sm-section-info h1{	
 	margin:0;
 }
 .sm-section-info h6{
-	
 	margin:0;
 	font-size:1rem;
 	margin-bottom:5rem;
@@ -900,118 +729,25 @@ width:100%;
 	font-style:italic;
 }
 .sm-section-images{
-	
 	font-size:0;
 }
 .sm-image{
-
 	display:inline-block;
 	margin:0;
 	padding:0;
 }
 .sm-image img{
-	
 	width:12.4vw;
 	vertical-align:bottom;
 }
-/*.men-image-01{
-	
-	display:inline-block;
-	margin-right:2rem;
-}
-.image-01{
-
-	display:inline-block;
-	vertical-align:top;
-}
-.image-01 img{
-	display:inline-block;
-	width:24vw;
-	height:50vh;
-	vertical-align:top;
-}
-.image-01-info{
-	
-}
-.image-01-info h1{
-	margin-bottom:0;
-}
-.image-01-info h6{
-	margin:0;
-}
-.men-image-02{
-	display:inline-block;
-	margin-right:2rem;
-}
-.image-02{
-
-	display:inline-block;
-	vertical-align:top;
-}
-.image-02 img{
-	display:inline-block;
-	width:24vw;
-	height:50vh;
-	vertical-align:top;
-}
-.image-02-info{
-}
-.image-02-info h1{
-	margin-bottom:0;
-}
-.image-02-info h6{
-	margin:0;
-}
-.men-image-03{
-	display:inline-block;
-	
-}
-.image-03{
-	display:inline-block;
-	vertical-align:top;
-}
-.image-03 img{
-	display:inline-block;
-	width:24vw;
-	height:50vh;
-	vertical-align:top;
-}
-.image-03-info{
-}
-.image-03-info h1{
-	margin-bottom:0;
-}
-.image-03-info h6{
-	margin:0;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*    User Section     */
-
-
 .user-section{
 	border-bottom:3px dotted #e1d6d6;
 	margin-top:5rem;
 	margin-left:9rem;
 	margin-right:2rem;
 	padding-bottom:5rem;
-	
-	/*position:relative;*/
-}
-.user-section-info{
-	
-	/*position:absolute;*/
 }
 .user-section-info h1{
 	font-size:1.8rem;
@@ -1022,14 +758,10 @@ width:100%;
 	word-spacing:2px;
 }
 .user-section-info h6{
-	
-	/*margin:0;*/
 	font-size:0.8rem;
 	margin-bottom:1.8rem;
 	font-style:italic;
 	font-weight:500;
-	/*word-spacing:0.8px;
-	letter-spacing:0.2px;*/
 	color:#949191;
 }
 .user-info input[type="text"],
@@ -1043,8 +775,6 @@ width:100%;
 	display:inline-block;
 	width:5	0%;
 	vertical-align:top;
-}
-.user-info{
 }
 .user-info input:not([type="image"]){
 	height:2rem;
@@ -1060,7 +790,6 @@ width:100%;
 	vertical-align:middle;
 	margin:0;
 }
-
 .contact {
 	display:inline-block
 }
@@ -1084,9 +813,6 @@ width:100%;
 	font-weight:900;
 	font-size:1rem;
 }
-
-.store-location{
-}
 .phone{
 	margin-top:2rem;
 }
@@ -1103,14 +829,6 @@ width:100%;
 	font-weight:900;
 	font-size:1rem;
 }
-.contact-02 h6{
-	/*font-family:'Be Vietnam Pro',Anton;
-	font-weight:500;
-	font-size:1.4rem;
-*/}
-.email{
-	
-}
 .work-hours{
 	margin-top:2rem;
 }
@@ -1118,11 +836,7 @@ width:100%;
 	margin-top:2rem;
 }
 
-
-
-
 /*    Footer Section   */
-
 .footer-section{
 	background-color:black;
 	color:white;
@@ -1151,14 +865,12 @@ width:100%;
 
 }
 .footer-profile{
-	
 	display:inline-block;
 	vertical-align:top;
 	text-align:left;
 	margin-right:4rem;
 }
 .categories{
-	
 	display:inline-block;
 	text-align:left;
 	vertical-align:top;
@@ -1213,7 +925,6 @@ width:100%;
 	display:inline-block;
 	margin-right:2rem;
 	color:#0000ee;
-	/*color:blue;*/
 }
 .twitter-icon{
 	display:inline-block;
@@ -1226,15 +937,3 @@ width:100%;
 .behance-icon{
 	display:inline-block;
 }
-/*.facebook-icon img,
-.twitter-icon img,
-.in-icon img,
-.behance-icon img{
-	height:8vh;
-	width:6vw;
-}
-
-
-
-
-*/
